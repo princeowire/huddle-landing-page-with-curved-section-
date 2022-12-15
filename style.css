@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.attribution {
+    font-size: 10px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.attribution a {
+    color: hsl(281, 45%, 44%);
+}
+
+.sec-1 button{
+    float: right;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    border-color: pink;
+    margin: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sec-1 img {
+    margin: 50px;
+}
+
+p {
+    color: gray;
+    max-width: 500px;
+    text-align: center;
+}
+
+.sec-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    gap: 50px;
+}
+
+.sec-2 button {
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    background-color: hsl(321, 94%, 67%); 
+    border: none;
+    cursor: pointer;
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.sec-3 div {
+    display: inline;
+}
+
+.sec-3 img {
+    width: 75%;
+}
+
+.big-h2 {
+    font-size: 500%;
+}
+
+.sec-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.big-p {
+    font-size: 100%;
+}
+
+.sec-5 {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    gap: 10%;
+}
+
+.sec-5 img {
+    width: 100%;
+}
+
+.sec-5 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-5 p {
+    text-align: center;
+}
+
+.text-1 {
+    text-align: left;
+    width: 550;
+}
+
+.num-div-1 {
+    background-image: url(./imgage/bg-section-top-desktop-1.svg);
+    background-repeat: repeat-x;    
+    height: 100%;
+    width: 100%; 
+    padding: 100px;
+}
+
+.num-div-2 {
+    background-image: url(./imgage/bg-section-bottom-desktop-1.svg);
+    background-repeat: repeat-x;    
+    height: 100%;
+    width: 100%; 
+    padding: 100px;
+}
+
+.sec-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.sec-6 img {
+    width: 60%;
+}
+
+.sec-6 div {
+    text-align: center;
+}
+
+.sec-7 {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+    margin-top: -50px;
+    margin-bottom: -10px;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-7 img {
+    width: 60%;
+}
+
+.num-div-3 { 
+    background-image: url(./imgage/bg-section-top-desktop-2.svg);
+    background-repeat: repeat-x;    
+    height: 100%;
+    width: 100%; 
+    padding: 100px;
+}
+
+.num-div-4 { 
+    background-image: url(./imgage/bg-section-bottom-desktop-2.svg);
+    background-repeat: repeat-x;    
+    height: 100%;
+    width: 100%; 
+    padding: 100px;
+}
+.sec-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 15%;
+}
+
+.sec-8 button {
+    padding: 18px;
+    border-radius: 30px;
+    width: 300px;
+    background-color: hsl(321, 94%, 67%); 
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -45px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.st-ft-div {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nd-ft-div {
+    margin: 2%; 
+}
+
+.num-div-5 {
+    background-image: url(./imgage/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%; 
+    padding: 100px;
+}
+
+.nd-ft-div h2 {
+    color: white;
+}
+
+.st-ft-div img{
+    filter: invert(100%);
+}
+
+footer p {
+    text-align: left;
+    color: rgb(190, 187, 187);
+    max-width: 300px;
+
+}
+
+.btm-icon img {
+    width: 35px;
+}
+
+.btm-icon :hover {
+    background-color: rgb(102, 102, 212);
+    cursor: pointer;
+}
+
+.ft-btn button {
+    background-color: hsl(321, 94%, 67%);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    border: none;
+    height: 30px;
+}
+
+.ft-btn {
+   margin-top: 25px;
+}
+
+.ft-btn input {
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media only screen and (orientation: portrait)
+    {
+        .num-div-1 {
+            background-image: url(./imgage/bg-section-top-mobile-1.svg);
+            background-repeat: repeat-x;
+            width: 100%; 
+            padding: 100px; 
+        }
+
+        .num-div-2 {
+            background-image: url(./imgage/bg-section-bottom-mobile-1.svg);
+            padding: 50px;
+            margin-top: 50px;
+        }
+
+        .num-div-3 {
+            background-image: url(./imgage/bg-section-top-mobile-2.svg);
+            padding: 75px;
+        }
+
+        .num-div-4 {
+            background-image: url(./imgage/bg-section-bottom-mobile-2.svg);
+            padding: 75px;
+        }
+
+        .num-div-5 {
+            background-image: url(./imgage/bg-footer-top-mobile.svg)
+
+        }
+
+        .sec-5 {
+            margin-top: -89px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .sec-6 {
+             display: flex;
+             flex-direction: column;
+             gap: 30px;
+        }
+
+        .sec-1 {
+            display: flex;
+            gap: 0.5px;
+        }
+
+        .sec-1 img {
+            width: 100px;
+            height: 30px;
+        }
+
+        .sec-1 button{
+            float: none;
+            width: 100px;
+            margin: auto;
+        }
+
+        .sec-4 {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .sec-6 img {
+            width: 100%;
+        }
+
+        .sec-7 img {
+            width: 100%;
+        }
+
+        .sec-7 {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+
+        footer {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: -150px;
+        }
+
+        .sec-5 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
