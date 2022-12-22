@@ -237,10 +237,6 @@ footer {
     color: white;
 }
 
-.st-ft-div img{
-    filter: invert(100%);
-}
-
 footer p {
     text-align: left;
     color: rgb(190, 187, 187);
@@ -250,6 +246,7 @@ footer p {
 
 .btm-icon img {
     width: 35px;
+    filter: invert(100);
 }
 
 .btm-icon :hover {
